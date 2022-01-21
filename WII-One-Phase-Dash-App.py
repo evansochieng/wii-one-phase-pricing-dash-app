@@ -74,7 +74,7 @@ app.layout = html.Div(children=[
                 html.Br(),
                 html.Label(style={"font-weight": "bold", 'color': colors['subheadingsText']},
                            children=["Cover period"]),
-                html.Div(dcc.RangeSlider(id='period', min=0, max=366, step=1, marks={i: i for i in range(0,367,10)},
+                html.Div(dcc.RangeSlider(id='period', min=0, max=366, step=1, marks={i: i for i in range(0,367,20)},
                                          value=[246, 275]))
             ], style={'width': '50%'}),
             html.Div(children=[
