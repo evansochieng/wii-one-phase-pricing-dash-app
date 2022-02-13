@@ -1,2 +1,2 @@
 # wii-one-phase-pricing
-find premium for weather index insurance policy(bangladesh drought cover)
+find premium for weather index insurance policy.
